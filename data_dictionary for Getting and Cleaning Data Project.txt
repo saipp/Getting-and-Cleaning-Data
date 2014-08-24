@@ -1,8 +1,0 @@
-DATA DICTIONARY - Getting and Cleaning Data Course Project
-
-subject - Possible Values (1-30)
-
-activity_label - Possbile values (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
-
-mean - Average for each activity
-	
