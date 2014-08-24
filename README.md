@@ -3,8 +3,7 @@ Getting-and-Cleaning-Data
 =======================================================================================================================
 This work is done as part of the Getting and Cleaning Data Course Project
 =======================================================================================================================
-This program "run_analysis.R" reads the Samsung data from the working directory and summarizes the data.
-The relative path is .\ucihar\UCI HAR Dataset
+The program "run_analysis.R" reads the Samsung data from the working directory and summarizes the data. The relative path is .\ucihar\UCI HAR Dataset
 =======================================================================================================================
 When the program executes it creates a tidy dataset in a file called "result_data.csv"
 =======================================================================================================================
