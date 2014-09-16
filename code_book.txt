@@ -1,5 +1,5 @@
-subject
-activity
+Subject
+Activity
 TimeBodyAcceleration.Mean.X
 TimeBodyAcceleration.Mean.Y
 TimeBodyAcceleration.Mean.Z

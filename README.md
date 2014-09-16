@@ -1,10 +1,10 @@
-=======================================================================================================================
+================================================================
 Getting and Cleaning Data Course Project
-=======================================================================================================================
+================================================================
 
 The program "run_analysis.R" reads the Samsung data from the working directory and summarizes the data. 
 The relative path is .\ucihar\UCI HAR Dataset
-=======================================================================================================================
+================================================================
 
 When the program executes it creates a tidy dataset in a file called "result_data.txt", a space separted text file.
 
@@ -48,6 +48,17 @@ Save the dataset with a comma separated file which can easily be opened in excel
 
 Perform cleanup
  
-=======================================================================================================================
+================================================================
 
-The codebook for the dataset is in the file code_book .=======================================================================================================================
+The codebook for the dataset is in the file code_book.================================================================
+
+Here is the information from the original README.MD file
+
+========
+Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
+
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+
+This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.
+
+Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
