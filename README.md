@@ -1,15 +1,15 @@
 ================================================================
 Getting and Cleaning Data Course Project
 ================================================================
-
+Input:
 The program "run_analysis.R" reads the Samsung data from the working directory and summarizes the data. 
 The relative path is .\ucihar\UCI HAR Dataset
 ================================================================
-
+Output:
 When the program executes it creates a tidy dataset in a file called "result_data.txt", a space separted text file.
 
-The program is implemented as follows
-
+================================================================
+Implementation:
 Merge the training and the test sets to create one data set and label the data set with descriptive variable names
 
 Read in the features, activty names, train dataset
@@ -49,9 +49,9 @@ Save the dataset with a comma separated file which can easily be opened in excel
 Perform cleanup
  
 ================================================================
-
+Codebook:
 The codebook for the dataset is in the file code_book.================================================================
-
+Original README.md
 Here is the information from the original README.MD file
 
 ==================================================================

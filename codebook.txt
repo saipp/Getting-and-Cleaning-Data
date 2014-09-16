@@ -1,0 +1,115 @@
+This codebook details how the result_data is represented
+		
+Subject	
+	integer	
+	Identify the subject
+
+Activity	
+	character	
+	Identify the activity 
+	Possbile values are LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS
+
+TimeBodyAcceleration.Mean.X	
+	double	
+	Mean Body acceleration signal in time domain in X-direction
+	
+TimeBodyAcceleration.Mean.Y	
+	double	
+	Mean Body acceleration signal in time domain in Y-direction
+
+TimeBodyAcceleration.Mean.Z	double	
+	double	
+	Mean Body acceleration signal in time domain in Z-direction
+
+TimeGravityAcceleration.Mean.X	double
+	double	
+	Mean Gravity acceleration signal in time domain in X-direction
+
+TimeGravityAcceleration.Mean.Y	double	
+	double	
+	Mean Gravity acceleration signal in time domain in Y-direction
+
+TimeGravityAcceleration.Mean.Z	double	
+	double	
+	Mean Gravity acceleration signal in time domain in Z-direction
+
+TimeBodyAccelerationJerk.Mean.X	double	
+TimeBodyAccelerationJerk.Mean.Y	double	
+TimeBodyAccelerationJerk.Mean.Z	double	
+TimeBodyGyrometer.Mean.X	double	
+TimeBodyGyrometer.Mean.Y	double	
+TimeBodyGyrometer.Mean.Z	double	
+TimeBodyGyrometerJerk.Mean.X	double	
+TimeBodyGyrometerJerk.Mean.Y	double	
+TimeBodyGyrometerJerk.Mean.Z	double	
+TimeBodyAccelerationMagnitude.Mean	double	
+TimeGravityAccelerationMagnitude.Mean	double	
+TimeBodyAccelerationJerkMagnitude.Mean	double	
+TimeBodyGyrometerMagnitude.Mean	double	
+TimeBodyGyrometerJerkMagnitude.Mean	double	
+FrequencyBodyAcceleration.Mean.X	double	
+FrequencyBodyAcceleration.Mean.Y	double	
+FrequencyBodyAcceleration.Mean.Z	double	
+FrequencyBodyAcceleration.MeanFrequency.X	double	
+FrequencyBodyAcceleration.MeanFrequency.Y	double	
+FrequencyBodyAcceleration.MeanFrequency.Z	double	
+FrequencyBodyAccelerationJerk.Mean.X	double	
+FrequencyBodyAccelerationJerk.Mean.Y	double	
+FrequencyBodyAccelerationJerk.Mean.Z	double	
+FrequencyBodyAccelerationJerk.MeanFrequency.X	double	
+FrequencyBodyAccelerationJerk.MeanFrequency.Y	double	
+FrequencyBodyAccelerationJerk.MeanFrequency.Z	double	
+FrequencyBodyGyrometer.Mean.X	double	
+FrequencyBodyGyrometer.Mean.Y	double	
+FrequencyBodyGyrometer.Mean.Z	double	
+FrequencyBodyGyrometer.MeanFrequency.X	double	
+FrequencyBodyGyrometer.MeanFrequency.Y	double	
+FrequencyBodyGyrometer.MeanFrequency.Z	double	
+FrequencyBodyAccelerationMagnitude.Mean	double	
+FrequencyBodyAccelerationMagnitude.MeanFrequency	double	
+FrequencyBodyBodyAccelerationJerkMagnitude.Mean	double	
+FrequencyBodyBodyAccelerationJerkMagnitude.MeanFrequency	double	
+FrequencyBodyBodyGyrometerMagnitude.Mean	double	
+FrequencyBodyBodyGyrometerMagnitude.MeanFrequency	double	
+FrequencyBodyBodyGyrometerJerkMagnitude.Mean	double	
+FrequencyBodyBodyGyrometerJerkMagnitude.MeanFrequency	double	
+angle.TimeBodyAccelerationMean.gravity.	double	
+angle.TimeBodyAccelerationJerkMean..gravityMean.	double	
+angle.TimeBodyGyrometerMean.gravityMean.	double	
+angle.TimeBodyGyrometerJerkMean.gravityMean.	double	
+angle.X.gravityMean.	double	
+angle.Y.gravityMean.	double	
+angle.Z.gravityMean.	double	
+TimeBodyAcceleration.StandardDeviation.X	double	
+TimeBodyAcceleration.StandardDeviation.Y	double	
+TimeBodyAcceleration.StandardDeviation.Z	double	
+TimeGravityAcceleration.StandardDeviation.X	double	
+TimeGravityAcceleration.StandardDeviation.Y	double	
+TimeGravityAcceleration.StandardDeviation.Z	double	
+TimeBodyAccelerationJerk.StandardDeviation.X	double	
+TimeBodyAccelerationJerk.StandardDeviation.Y	double	
+TimeBodyAccelerationJerk.StandardDeviation.Z	double	
+TimeBodyGyrometer.StandardDeviation.X	double	
+TimeBodyGyrometer.StandardDeviation.Y	double	
+TimeBodyGyrometer.StandardDeviation.Z	double	
+TimeBodyGyrometerJerk.StandardDeviation.X	double	
+TimeBodyGyrometerJerk.StandardDeviation.Y	double	
+TimeBodyGyrometerJerk.StandardDeviation.Z	double	
+TimeBodyAccelerationMagnitude.StandardDeviation	double	
+TimeGravityAccelerationMagnitude.StandardDeviation	double	
+TimeBodyAccelerationJerkMagnitude.StandardDeviation	double	
+TimeBodyGyrometerMagnitude.StandardDeviation	double	
+TimeBodyGyrometerJerkMagnitude.StandardDeviation	double	
+FrequencyBodyAcceleration.StandardDeviation.X	double	
+FrequencyBodyAcceleration.StandardDeviation.Y	double	
+FrequencyBodyAcceleration.StandardDeviation.Z	double	
+FrequencyBodyAccelerationJerk.StandardDeviation.X	double	
+FrequencyBodyAccelerationJerk.StandardDeviation.Y	double	
+FrequencyBodyAccelerationJerk.StandardDeviation.Z	double	
+FrequencyBodyGyrometer.StandardDeviation.X	double	
+FrequencyBodyGyrometer.StandardDeviation.Y	double	
+FrequencyBodyGyrometer.StandardDeviation.Z	double	
+FrequencyBodyAccelerationMagnitude.StandardDeviation	double	
+FrequencyBodyBodyAccelerationJerkMagnitude.StandardDeviation	double	
+FrequencyBodyBodyGyrometerMagnitude.StandardDeviation	double	
+FrequencyBodyBodyGyrometerJerkMagnitude.StandardDeviation	double	

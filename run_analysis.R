@@ -1,3 +1,5 @@
+# Load any needed libraries
+library("gdata")
 #1 Merge the training and the test sets to create one data set
 # and
 #4 Appropriately label the data set with descriptive variable names
