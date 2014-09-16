@@ -1,4 +1,4 @@
-This codebook details how the result_data is represented
+This codebook details how the result_data is represented. It lists the column names and the datatype of the columns
 		
 Subject	
 	integer	
@@ -17,99 +17,338 @@ TimeBodyAcceleration.Mean.Y
 	double	
 	Mean Body acceleration signal in time domain in Y-direction
 
-TimeBodyAcceleration.Mean.Z	double	
+TimeBodyAcceleration.Mean.Z
 	double	
 	Mean Body acceleration signal in time domain in Z-direction
 
-TimeGravityAcceleration.Mean.X	double
+TimeGravityAcceleration.Mean.X
 	double	
 	Mean Gravity acceleration signal in time domain in X-direction
 
-TimeGravityAcceleration.Mean.Y	double	
+TimeGravityAcceleration.Mean.Y
 	double	
 	Mean Gravity acceleration signal in time domain in Y-direction
 
-TimeGravityAcceleration.Mean.Z	double	
+TimeGravityAcceleration.Mean.Z
 	double	
 	Mean Gravity acceleration signal in time domain in Z-direction
 
-TimeBodyAccelerationJerk.Mean.X	double	
-TimeBodyAccelerationJerk.Mean.Y	double	
-TimeBodyAccelerationJerk.Mean.Z	double	
-TimeBodyGyrometer.Mean.X	double	
-TimeBodyGyrometer.Mean.Y	double	
-TimeBodyGyrometer.Mean.Z	double	
-TimeBodyGyrometerJerk.Mean.X	double	
-TimeBodyGyrometerJerk.Mean.Y	double	
-TimeBodyGyrometerJerk.Mean.Z	double	
-TimeBodyAccelerationMagnitude.Mean	double	
-TimeGravityAccelerationMagnitude.Mean	double	
-TimeBodyAccelerationJerkMagnitude.Mean	double	
-TimeBodyGyrometerMagnitude.Mean	double	
-TimeBodyGyrometerJerkMagnitude.Mean	double	
-FrequencyBodyAcceleration.Mean.X	double	
-FrequencyBodyAcceleration.Mean.Y	double	
-FrequencyBodyAcceleration.Mean.Z	double	
-FrequencyBodyAcceleration.MeanFrequency.X	double	
-FrequencyBodyAcceleration.MeanFrequency.Y	double	
-FrequencyBodyAcceleration.MeanFrequency.Z	double	
-FrequencyBodyAccelerationJerk.Mean.X	double	
-FrequencyBodyAccelerationJerk.Mean.Y	double	
-FrequencyBodyAccelerationJerk.Mean.Z	double	
-FrequencyBodyAccelerationJerk.MeanFrequency.X	double	
-FrequencyBodyAccelerationJerk.MeanFrequency.Y	double	
-FrequencyBodyAccelerationJerk.MeanFrequency.Z	double	
-FrequencyBodyGyrometer.Mean.X	double	
-FrequencyBodyGyrometer.Mean.Y	double	
-FrequencyBodyGyrometer.Mean.Z	double	
-FrequencyBodyGyrometer.MeanFrequency.X	double	
-FrequencyBodyGyrometer.MeanFrequency.Y	double	
-FrequencyBodyGyrometer.MeanFrequency.Z	double	
-FrequencyBodyAccelerationMagnitude.Mean	double	
-FrequencyBodyAccelerationMagnitude.MeanFrequency	double	
-FrequencyBodyBodyAccelerationJerkMagnitude.Mean	double	
-FrequencyBodyBodyAccelerationJerkMagnitude.MeanFrequency	double	
-FrequencyBodyBodyGyrometerMagnitude.Mean	double	
-FrequencyBodyBodyGyrometerMagnitude.MeanFrequency	double	
-FrequencyBodyBodyGyrometerJerkMagnitude.Mean	double	
-FrequencyBodyBodyGyrometerJerkMagnitude.MeanFrequency	double	
-angle.TimeBodyAccelerationMean.gravity.	double	
-angle.TimeBodyAccelerationJerkMean..gravityMean.	double	
-angle.TimeBodyGyrometerMean.gravityMean.	double	
-angle.TimeBodyGyrometerJerkMean.gravityMean.	double	
-angle.X.gravityMean.	double	
-angle.Y.gravityMean.	double	
-angle.Z.gravityMean.	double	
-TimeBodyAcceleration.StandardDeviation.X	double	
-TimeBodyAcceleration.StandardDeviation.Y	double	
-TimeBodyAcceleration.StandardDeviation.Z	double	
-TimeGravityAcceleration.StandardDeviation.X	double	
-TimeGravityAcceleration.StandardDeviation.Y	double	
-TimeGravityAcceleration.StandardDeviation.Z	double	
-TimeBodyAccelerationJerk.StandardDeviation.X	double	
-TimeBodyAccelerationJerk.StandardDeviation.Y	double	
-TimeBodyAccelerationJerk.StandardDeviation.Z	double	
-TimeBodyGyrometer.StandardDeviation.X	double	
-TimeBodyGyrometer.StandardDeviation.Y	double	
-TimeBodyGyrometer.StandardDeviation.Z	double	
-TimeBodyGyrometerJerk.StandardDeviation.X	double	
-TimeBodyGyrometerJerk.StandardDeviation.Y	double	
-TimeBodyGyrometerJerk.StandardDeviation.Z	double	
-TimeBodyAccelerationMagnitude.StandardDeviation	double	
-TimeGravityAccelerationMagnitude.StandardDeviation	double	
-TimeBodyAccelerationJerkMagnitude.StandardDeviation	double	
-TimeBodyGyrometerMagnitude.StandardDeviation	double	
-TimeBodyGyrometerJerkMagnitude.StandardDeviation	double	
-FrequencyBodyAcceleration.StandardDeviation.X	double	
-FrequencyBodyAcceleration.StandardDeviation.Y	double	
-FrequencyBodyAcceleration.StandardDeviation.Z	double	
-FrequencyBodyAccelerationJerk.StandardDeviation.X	double	
-FrequencyBodyAccelerationJerk.StandardDeviation.Y	double	
-FrequencyBodyAccelerationJerk.StandardDeviation.Z	double	
-FrequencyBodyGyrometer.StandardDeviation.X	double	
-FrequencyBodyGyrometer.StandardDeviation.Y	double	
-FrequencyBodyGyrometer.StandardDeviation.Z	double	
-FrequencyBodyAccelerationMagnitude.StandardDeviation	double	
-FrequencyBodyBodyAccelerationJerkMagnitude.StandardDeviation	double	
-FrequencyBodyBodyGyrometerMagnitude.StandardDeviation	double	
-FrequencyBodyBodyGyrometerJerkMagnitude.StandardDeviation	double	
+TimeBodyAccelerationJerk.Mean.X
+	double	
+	Mean Body acceleration jerk signal in time domain in X-direction
+
+TimeBodyAccelerationJerk.Mean.Y
+	double	
+	Mean Body acceleration jerk signal in time domain in Y-direction
+
+TimeBodyAccelerationJerk.Mean.Z
+	double	
+	Mean Body acceleration jerk signal in time domain in Z-direction
+
+TimeBodyGyrometer.Mean.X
+	double	
+	Mean Body angular velocity signal in time domain in X-direction
+
+TimeBodyGyrometer.Mean.Y
+	double	
+	Mean Body angular velocity signal in time domain in Y-direction
+
+TimeBodyGyrometer.Mean.Z
+	double	
+	Mean Body angular velocity signal in time domain in Z-direction
+
+TimeBodyGyrometerJerk.Mean.X
+	double	
+	Mean Body angular velocity jerk signal in time domain in X-direction
+	
+TimeBodyGyrometerJerk.Mean.Y
+	double	
+	Mean Body angular velocity jerk signal in time domain in Y-direction
+
+TimeBodyGyrometerJerk.Mean.Z
+	double	
+	Mean Body angular velocity jerk signal in time domain in Z-direction
+	
+TimeBodyAccelerationMagnitude.Mean
+	double	
+	Mean Body acceleration magnitude signal in time domain
+
+TimeGravityAccelerationMagnitude.Mean
+	double	
+	Mean Gravity acceleration magnitude signal in time domain
+
+TimeBodyAccelerationJerkMagnitude.Mean
+	double	
+	Mean Body acceleration magnitude jerk signal in time domain
+
+TimeBodyGyrometerMagnitude.Mean
+	double	
+	Mean Body acceleration magnitude signal in time domain
+
+TimeBodyGyrometerJerkMagnitude.Mean
+	double	
+	Mean Body acceleration magnitude signal in time domain
+
+FrequencyBodyAcceleration.Mean.X
+	double	
+	Mean Body acceleration signal in frequency domain in X-direction
+
+FrequencyBodyAcceleration.Mean.Y
+	double	
+	Mean Body acceleration signal in frequency domain in Y-direction
+
+FrequencyBodyAcceleration.Mean.Z
+	double	
+	Mean Body acceleration signal in frequency domain in Z-direction
+
+FrequencyBodyAcceleration.MeanFrequency.X
+	double	
+	Mean Frequency Body acceleration signal in frequency domain in X-direction
+
+FrequencyBodyAcceleration.MeanFrequency.Y
+	double	
+	Mean Frequency Body acceleration signal in frequency domain in Y-direction
+
+FrequencyBodyAcceleration.MeanFrequency.Z
+	double	
+	Mean Frequency Body acceleration signal in frequency domain in Z-direction
+
+FrequencyBodyAccelerationJerk.Mean.X
+	double	
+	Mean Body acceleration jerk signal in frequency domain in X-direction
+
+FrequencyBodyAccelerationJerk.Mean.Y
+	double	
+	Mean Body acceleration jerk signal in frequency domain in Y-direction
+
+FrequencyBodyAccelerationJerk.Mean.Z
+	double	
+	Mean Body acceleration jerk signal in frequency domain in Z-direction
+
+FrequencyBodyAccelerationJerk.MeanFrequency.X
+	double	
+	Mean Body acceleration jerk signal in frequency domain in X-direction
+
+FrequencyBodyAccelerationJerk.MeanFrequency.Y
+	double	
+	Mean Body acceleration jerk signal in frequency domain in Y-direction
+
+FrequencyBodyAccelerationJerk.MeanFrequency.Z
+	double	
+	Mean Body acceleration jerk signal in frequency domain in Z-direction
+
+FrequencyBodyGyrometer.Mean.X
+	double	
+	Mean Body angular velocity signal in frequency domain in X-direction
+
+FrequencyBodyGyrometer.Mean.Y
+	double	
+	Mean Body angular velocity signal in frequency domain in Y-direction
+
+FrequencyBodyGyrometer.Mean.Z
+	double	
+	Mean Body angular velocity signal in frequency domain in Z-direction
+
+FrequencyBodyGyrometer.MeanFrequency.X
+	double	
+	Mean Frequency Body angular velocity signal in frequency domain in X-direction
+
+FrequencyBodyGyrometer.MeanFrequency.Y
+	double	
+	Mean Frequency Body angular velocity signal in frequency domain in Y-direction
+
+FrequencyBodyGyrometer.MeanFrequency.Z
+	double	
+	Mean Frequency Body angular velocity signal in frequency domain in Z-direction
+
+FrequencyBodyAccelerationMagnitude.Mean
+	double	
+	Mean Body acceleration magnitude signal in frequency domain
+
+FrequencyBodyAccelerationMagnitude.MeanFrequency
+	double	
+	Mean Frequency Body acceleration magnitude signal in frequency domain
+
+FrequencyBodyBodyAccelerationJerkMagnitude.Mean
+	double	
+	Mean Body acceleration magnitude jerk signal in frequency domain
+
+FrequencyBodyBodyAccelerationJerkMagnitude.MeanFrequency
+	double	
+	Mean Frequency Body acceleration magnitude jerk signal in frequency domain
+
+FrequencyBodyBodyGyrometerMagnitude.Mean
+	double	
+	Mean Body angular velocity magnitude signal in frequency domain
+
+FrequencyBodyBodyGyrometerMagnitude.MeanFrequency
+	double	
+	Mean Frequency Body angular velocity magnitude signal in frequency domain
+
+FrequencyBodyBodyGyrometerJerkMagnitude.Mean
+	double	
+	Mean Body angular velocity magnitude jerk signal in frequency domain
+
+FrequencyBodyBodyGyrometerJerkMagnitude.MeanFrequency
+	double	
+	Mean Frequency Body angular velocity magnitude jerk signal in frequency domain
+
+angle.TimeBodyAccelerationMean.gravity.
+	double	
+	angle between Mean Body acceleration and gravity signals in time domain
+
+angle.TimeBodyAccelerationJerkMean..gravityMean.
+	double	
+	angle between Mean Body acceleration and gravity jerk signals in time domain
+
+angle.TimeBodyGyrometerMean.gravityMean.
+	double	
+	angle between Mean Body angular velocity and gravity signals in time domain
+
+angle.TimeBodyGyrometerJerkMean.gravityMean.
+	double	
+	angle between Mean Body angular velocity and gravity jerk signals in time domain
+
+angle.X.gravityMean.
+	double	
+	Mean gravity angle in X-direction
+
+angle.Y.gravityMean.
+	double	
+	Mean gravity angle in Y-direction
+
+angle.Z.gravityMean.
+	double	
+	Mean gravity angle in Z-direction
+
+TimeBodyAcceleration.StandardDeviation.X
+	double	
+	Standard Deviation Body acceleration signal in time domain in X-direction
+
+TimeBodyAcceleration.StandardDeviation.Y
+	double	
+	Standard Deviation Body acceleration signal in time domain in Y-direction
+
+TimeBodyAcceleration.StandardDeviation.Z
+	double	
+	Standard Deviation Body acceleration signal in time domain in Z-direction
+
+TimeGravityAcceleration.StandardDeviation.X
+	double	
+	Standard Deviation Gravity acceleration signal in time domain in X-direction
+
+TimeGravityAcceleration.StandardDeviation.Y
+	double	
+	Standard Deviation Gravity acceleration signal in time domain in Y-direction
+
+TimeGravityAcceleration.StandardDeviation.Z
+	double	
+	Standard Deviation Gravity acceleration signal in time domain in Z-direction
+
+TimeBodyAccelerationJerk.StandardDeviation.X
+	double	
+	Standard Deviation Body acceleration jerk signal in time domain in X-direction
+
+TimeBodyAccelerationJerk.StandardDeviation.Y
+	double	
+	Standard Deviation Body acceleration jerk signal in time domain in X-direction
+
+TimeBodyAccelerationJerk.StandardDeviation.Z
+	double	
+	Standard Deviation Body acceleration jerk signal in time domain in X-direction
+
+TimeBodyGyrometer.StandardDeviation.X
+	double	
+	Standard Deviation Body angular velocity signal in time domain in X-direction
+
+TimeBodyGyrometer.StandardDeviation.Y
+	double	
+	Standard Deviation Body angular velocity signal in time domain in Y-direction
+
+TimeBodyGyrometer.StandardDeviation.Z
+	double	
+	Standard Deviation Body angular velocity signal in time domain in Z-direction
+
+TimeBodyGyrometerJerk.StandardDeviation.X
+	double	
+	Standard Deviation Body angular velocity jerk signal in time domain in X-direction
+
+TimeBodyGyrometerJerk.StandardDeviation.Y
+	double	
+	Standard Deviation Body angular velocity jerk signal in time domain in Y-direction
+
+TimeBodyGyrometerJerk.StandardDeviation.Z
+	double	
+	Standard Deviation Body angular velocity jerk signal in time domain in Z-direction
+
+TimeBodyAccelerationMagnitude.StandardDeviation
+	double	
+	Standard Deviation Body acceleration magnitude signal in time domain
+
+TimeGravityAccelerationMagnitude.StandardDeviation
+	double	
+	Standard Deviation Gravity acceleration magnitude signal in time domain
+
+TimeBodyAccelerationJerkMagnitude.StandardDeviation
+	double	
+	Standard Deviation Body acceleration magnitude jerk signal in time domain
+
+TimeBodyGyrometerMagnitude.StandardDeviation
+	double	
+	Standard Deviation Body angular velocity magnitude signal in time domain
+
+TimeBodyGyrometerJerkMagnitude.StandardDeviation
+	double	
+	Standard Deviation Body angular velocity magnitude jerk signal in time domain
+
+FrequencyBodyAcceleration.StandardDeviation.X
+	double	
+	Standard Deviation Body acceleration signal in frequency domain in X-direction
+
+FrequencyBodyAcceleration.StandardDeviation.Y
+	double	
+	Standard Deviation Body acceleration signal in frequency domain in Y-direction
+
+FrequencyBodyAcceleration.StandardDeviation.Z
+	double	
+	Standard Deviation Body acceleration signal in frequency domain in Z-direction
+
+FrequencyBodyAccelerationJerk.StandardDeviation.X
+	double	
+	Standard Deviation Body acceleration jerk signal in frequency domain in X-direction
+
+FrequencyBodyAccelerationJerk.StandardDeviation.Y
+	double	
+	Standard Deviation Body acceleration jerk signal in frequency domain in Y-direction
+
+FrequencyBodyAccelerationJerk.StandardDeviation.Z
+	double	
+	Standard Deviation Body acceleration jerk signal in frequency domain in Z-direction
+
+FrequencyBodyGyrometer.StandardDeviation.X
+	double	
+	Standard Deviation Body angular velocity signal in frequency domain in X-direction
+
+FrequencyBodyGyrometer.StandardDeviation.Y
+	double	
+	Standard Deviation Body angular velocity signal in frequency domain in Y-direction
+
+FrequencyBodyGyrometer.StandardDeviation.Z
+	double	
+	Standard Deviation Body angular velocity signal in frequency domain in Z-direction
+
+FrequencyBodyAccelerationMagnitude.StandardDeviation
+	double	
+	Standard Deviation Body acceleration magnitude signal in frequency domain
+
+FrequencyBodyBodyAccelerationJerkMagnitude.StandardDeviation
+	double	
+	Standard Deviation Body acceleration magnitude jerk signal in frequency domain
+
+FrequencyBodyBodyGyrometerMagnitude.StandardDeviation
+	double	
+	Standard Deviation Body angular velocity magnitude signal in frequency domain
+
+FrequencyBodyBodyGyrometerJerkMagnitude.StandardDeviation
+	double	
+	Standard Deviation Body angular velocity magnitude jerk signal in frequency domain
